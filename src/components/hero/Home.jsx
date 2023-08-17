@@ -2,6 +2,15 @@ import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./Home.css";
+import {
+  FaHandHoldingMedical,
+  FaHandHoldingWater,
+  FaHandsWash,
+  FaMapMarkerAlt,
+  FaRegHandLizard,
+  FaRegHandPaper,
+  FaRegMehBlank,
+} from "react-icons/fa";
 
 const skillsData = [
   {
@@ -36,8 +45,9 @@ const Home = () => {
               Front-End Developer <FontAwesomeIcon icon={faReact} />
             </h1>
             <p>
-              Hi there! 👋 I'm Simeon Victor, a Front-End Enthusiast and React
-              Developer based in Lagos, Nigeria📍.
+              Hi there! <img src="path/to/waving-hand.svg" alt="Waving Hand" />{" "}
+              I'm Simeon Victor, a Front-End Enthusiast and React Developer
+              based in Lagos, Nigeria <FaMapMarkerAlt className="info_icon" />.
             </p>
             <span>
               <a href="#">
