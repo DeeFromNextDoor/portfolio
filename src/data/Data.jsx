@@ -15,6 +15,6 @@ export const Projects = [
     image: "./shoppie.png",
     technologies: ["JavaScript", "HTML", "CSS"],
     liveDemo: "https://shopieapp.netlify.app/",
-    sourceCode: "https://github.com/username/project2",
+    sourceCode: "https://github.com/DeeFromNextDoor/shopify-app.git",
   },
 ];
