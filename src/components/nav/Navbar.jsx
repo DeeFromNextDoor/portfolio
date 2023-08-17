@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { useAppContext } from "../../context/AppConetxt";
+import Contact from "../contact/Contact";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const { toggleTheme, darkMode, navVisible } = useAppContext();
@@ -17,18 +19,26 @@ const Navbar = () => {
         <h3 className="nav_logo">Victor.dev</h3>
         <div className="nav">
           <div className={`navlinks ${menuVisible ? "slide-in" : ""}`}>
-            <ul>
+            <ul className="nav_links">
               <li>
-                <a href="#">Home</a>
+                <Link to="home" smooth={true} duration={500}>
+                  Home
+                </Link>
               </li>
               <li>
-                <a href="#">About</a>
+                <Link to="about" smooth={true} duration={500}>
+                  About
+                </Link>
               </li>
               <li>
-                <a href="#">Projects</a>
+                <Link to="projects" smooth={true} duration={500}>
+                  Projects
+                </Link>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <Link to="contact" smooth={true} duration={500}>
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>

@@ -4,6 +4,7 @@
   flex-direction: column;
   height: 100vh;
   position: relative;
+  font-weight: 500;
 }
 
 .hero .container {
@@ -64,8 +65,7 @@
 }
 
 .hero_text p {
-  font-family: Mulish, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 18px;
   line-height: 1.4;
 }
@@ -79,7 +79,7 @@
 .skill-container p {
   position: relative;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .skill-container p::after {

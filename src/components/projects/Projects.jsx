@@ -1,9 +1,9 @@
 import React from "react";
 import "./Projects.css";
-import { Projects } from "../../data/Data";
+import { ProjectsData } from "../../data/Data";
 import Project from "./Project";
 
-const ProjectsSection = () => {
+const Projects = () => {
   return (
     <section className="projects" id="projects">
       <div className="container">
@@ -11,7 +11,7 @@ const ProjectsSection = () => {
           <h3 className="title">portfolio</h3>
           <h4>Each project is a unique piece of development</h4>
           <div className="projects_grid">
-            {Projects.map((proj) => (
+            {ProjectsData.map((proj) => (
               <Project
                 key={proj.title}
                 title={proj.title}
@@ -29,4 +29,4 @@ const ProjectsSection = () => {
   );
 };
 
-export default ProjectsSection;
+export default Projects;

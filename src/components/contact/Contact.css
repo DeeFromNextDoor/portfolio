@@ -34,6 +34,7 @@
   flex: 1;
   padding: 20px;
   background-color: white;
+  color: var(--Very_Dark_Blue_Light_Mode_Text);
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -83,6 +84,7 @@
 .contact_info {
   flex: 0.8;
   padding: 20px;
+  font-weight: 600;
   background-color: white;
   color: var(--Very_Dark_Blue_Light_Mode_Text);
   border-radius: 15px;
@@ -134,7 +136,7 @@
   transform: scale(1.02);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .contact_content {
     flex-direction: column;
   }

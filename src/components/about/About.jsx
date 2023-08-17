@@ -13,10 +13,10 @@ const About = () => {
               Nigeria📍
             </h4>
             <p>
-              Hi there! I'm Simeon Victor, a passionate Front-End Developer
-              based in Lagos, Nigeria. With a strong love for creating elegant
-              and interactive user interfaces, I'm dedicated to crafting
-              delightful web experiences that leave a lasting impression.
+              As a passionate Front-End Developer based in Lagos, Nigeria. With
+              a strong love for creating elegant and interactive user
+              interfaces, I'm dedicated to crafting delightful web experiences
+              that leave a lasting impression.
             </p>
             <p>
               I believe in the power of clean code, responsive design, and
@@ -24,11 +24,11 @@ const About = () => {
               technology, and I've honed my skills through countless hours of
               learning, coding, and experimenting.
             </p>
-            {/* <p>
+            <p>
               When I'm not immersed in code, you can find me exploring new
               libraries and frameworks, sharing knowledge with the community,
               and enjoying quality time with my friends and family.
-            </p> */}
+            </p>
           </div>
           <div className="about-image">
             <div className="floating-image">
