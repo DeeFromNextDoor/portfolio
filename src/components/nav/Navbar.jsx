@@ -15,8 +15,8 @@ const Navbar = () => {
     <div className={`navbar ${navVisible ? "" : "hide"}`}>
       <div className="nav_content">
         <h3 className="nav_logo">Victor.dev</h3>
-        <div className="navlinks">
-          <div className={`links ${menuVisible ? "slide-in" : ""}`}>
+        <div className="nav">
+          <div className={`navlinks ${menuVisible ? "slide-in" : ""}`}>
             <ul>
               <li>
                 <a href="#">Home</a>

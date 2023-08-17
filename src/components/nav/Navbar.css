@@ -29,25 +29,25 @@
   cursor: pointer;
 }
 
-.navlinks {
+.nav {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.navlinks ul {
+.nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
 }
 
-.navlinks a {
+.nav a {
   text-decoration: none;
   font-weight: 600;
   transition: all 0.23s ease-in-out;
 }
 
-.navlinks a:hover {
+.nav a:hover {
   color: var(--Light_blue_text);
 }
 
@@ -75,13 +75,13 @@
   background-color: var(--Dark_Blue);
 }
 
-.dark_mode .links {
+.dark_mode .navlinks {
   background-color: var(--Dark_Blue);
   color: var(--White_Dark_Mode_Text_nd_Light_Mode_Elements);
   transition: all 0.5s ease-in-out;
 }
 
-.light_mode .links {
+.light_mode .navlinks {
   background-color: var(--Very_Light_Gray_Light_Mode_Background);
   color: var(--Very_Dark_Blue_Light_Mode_Text);
   transition: all 0.5s ease-in-out;
@@ -92,11 +92,11 @@
   font-size: 0;
 }
 
-.links {
+.navlinks {
   background: inherit;
 }
 
-.links.slide-in {
+.navlinks.slide-in {
   transform: translateX(0);
 }
 
@@ -109,7 +109,7 @@
     z-index: 999;
   }
 
-  .links {
+  .navlinks {
     position: absolute;
     top: 170%;
     left: 0;
@@ -122,7 +122,7 @@
     z-index: 900;
   }
 
-  .links.slide-in {
+  .navlinks.slide-in {
     transform: scaleY(1);
   }
 
@@ -137,12 +137,12 @@
     display: none;
   }
 
-  .links.slide-in ~ .overlay {
+  .navlinks.slide-in ~ .overlay {
     display: block;
     z-index: 5;
   }
 
-  .navlinks ul {
+  .nav ul {
     flex-direction: column;
     align-items: center;
   }

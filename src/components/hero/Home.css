@@ -4,11 +4,10 @@
   flex-direction: column;
   height: 100vh;
   position: relative;
-  width: 100%;
 }
 
 .hero .container {
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 
@@ -52,10 +51,10 @@
 @keyframes floating {
   0%,
   100% {
-    transform: translateY(0);
+    transform: translateY(5);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(20px);
   }
 }
 
@@ -151,6 +150,7 @@
 @media (max-width: 850px) {
   .hero {
     height: auto;
+    margin-bottom: 15px;
   }
 
   .hero .container {
