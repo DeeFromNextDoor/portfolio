@@ -42,6 +42,13 @@ const Home = () => {
               <FaMapMarkerAlt className="info_icon" />.
             </p>
             <span>
+              <a href="#" download="resume.pdf" className="download_cv">
+                <i
+                  className="bi bi-download"
+                  style={{ marginRight: "5px" }}
+                ></i>
+                Download CV
+              </a>
               <a href="#">
                 <i className="bi bi-linkedin"></i>
               </a>

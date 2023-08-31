@@ -1,5 +1,4 @@
 import "./App.css";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import About from "./components/about/About";
 import BackToTopButton from "./components/backToTop/BackToTopButton";
