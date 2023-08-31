@@ -45,7 +45,7 @@ const Home = () => {
               <a href="#" download="resume.pdf" className="download_cv">
                 <i
                   className="bi bi-download"
-                  style={{ marginRight: "5px" }}
+                  style={{ marginRight: "6px" }}
                 ></i>
                 Download CV
               </a>
