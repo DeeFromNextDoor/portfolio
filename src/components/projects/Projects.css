@@ -8,7 +8,6 @@
   text-align: left;
   font-size: 1.2rem;
   font-weight: 700;
-  margin-bottom: 20px;
   text-transform: uppercase;
 }
 
@@ -45,6 +44,7 @@
   flex: 1;
   min-height: 100px;
   max-height: 300px;
+  margin-bottom: 10px;
   object-fit: cover;
   border-radius: 15px;
   overflow: hidden;
@@ -132,7 +132,6 @@
   .project {
     padding: 10px 0;
     width: 90%;
-    max-height: 40rem;
     margin: auto;
     align-self: center;
   }
